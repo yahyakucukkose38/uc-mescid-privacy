@@ -1,256 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>3 Mescid — Gizlilik Politikası / Privacy Policy</title>
-<meta name="description" content="3 Mescid çocuk eğitim uygulaması — gizlilik politikası. Çevrimdışı, veri toplamaz, reklamsız.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>3 Mescid — Gizlilik ve Yasal Bilgiler</title>
 <style>
-  :root {
-    --cream: #FFFBF3;
-    --cream-dark: #EDE3CF;
-    --green: #1F6B52;
-    --green-deep: #0F3D2E;
-    --gold: #D9A441;
-    --ink: #1B2533;
-    --muted: #5B6573;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-                 'Helvetica Neue', Arial, sans-serif;
-    background: var(--cream);
-    color: var(--ink);
-    line-height: 1.65;
-  }
-  header {
-    background: linear-gradient(135deg, var(--green) 0%, var(--green-deep) 100%);
-    color: var(--cream);
-    padding: 36px 24px;
-    text-align: center;
-  }
-  header h1 { margin: 0 0 8px; font-size: 1.7rem; letter-spacing: 0.5px; }
-  header .sub { color: var(--gold); font-size: 0.95rem; margin-bottom: 18px; }
-  .switch {
-    display: inline-flex;
-    background: rgba(255,255,255,0.10);
-    border-radius: 24px;
-    padding: 4px;
-    border: 1px solid rgba(217,164,65,0.4);
-  }
-  .switch button {
-    background: transparent; border: 0; color: var(--cream);
-    padding: 6px 18px; border-radius: 20px; cursor: pointer;
-    font-size: 0.9rem; font-weight: 500; transition: background 0.2s;
-  }
-  .switch button.active { background: var(--gold); color: var(--green-deep); }
-  main { max-width: 760px; margin: 0 auto; padding: 36px 22px 64px; }
-  article { display: none; }
-  article.active { display: block; }
-  article h2 {
-    color: var(--green);
-    border-bottom: 1px solid var(--cream-dark);
-    padding-bottom: 6px; margin-top: 36px; font-size: 1.15rem;
-  }
-  article h2:first-of-type { margin-top: 0; }
-  article p, article li { font-size: 1rem; }
-  article ul { padding-left: 22px; }
-  article strong { color: var(--green-deep); }
-  .meta {
-    background: rgba(217,164,65,0.10);
-    border-left: 3px solid var(--gold);
-    padding: 12px 16px; margin-bottom: 24px;
-    font-size: 0.92rem; color: var(--muted);
-  }
-  footer {
-    text-align: center; color: var(--muted); font-size: 0.85rem;
-    padding: 24px; border-top: 1px solid var(--cream-dark); margin-top: 32px;
-  }
+  :root { --bg:#FFFBF3; --ink:#1B2533; --muted:#5B6573; --accent:#1F6B52; --line:#EDE3CF; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14181F; --ink:#E9EDF2; --muted:#A7B0BC; --accent:#7CC7A6; --line:#2A313B; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 -apple-system,'Segoe UI',Roboto,Arial,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:1.6rem; } h2 { color:var(--accent); border-bottom:1px solid var(--line); padding-bottom:6px; margin-top:48px; }
+  h3 { font-size:1.05rem; margin-top:24px; } .meta { color:var(--muted); font-size:.9rem; }
+  nav a { display:inline-block; margin:0 12px 8px 0; color:var(--accent); }
+  .draft { background:#B4762A; color:#fff; padding:12px 16px; border-radius:8px; }
 </style>
 </head>
-<body>
+<body><main>
 
-<header>
-  <h1>3 Mescid</h1>
-  <div class="sub">Gizlilik Politikası · Privacy Policy</div>
-  <div class="switch" role="tablist">
-    <button id="btn-tr" class="active" onclick="show('tr')">Türkçe</button>
-    <button id="btn-en" onclick="show('en')">English</button>
-  </div>
-</header>
+<h1>3 Mescid — Gizlilik ve Yasal Bilgiler</h1>
+<p class="meta">Uygulama: 3 Mescid (com.ucmescid.app). Bu sayfa çerez, analitik veya üçüncü taraf betik kullanmaz.</p>
+<nav><a href="#aydinlatma">KVKK Aydınlatma Metni</a><a href="#gizlilik">Gizlilik Politikası</a><a href="#kosullar">Kullanım Koşulları</a><a href="#cerezler">Çerez ve Yerel Depolama Bilgisi</a><a href="#veri-talepleri">Veri Görüntüleme, Düzeltme ve Silme</a></nav>
 
-<main>
-
-<article id="tr" class="active">
-
-  <div class="meta">
-    <strong>Yürürlük:</strong> 22 Ekim 2026<br>
-    <strong>Uygulama:</strong> 3 Mescid (com.ucmescid.app)<br>
-    <strong>Geliştirici:</strong> Yahya Küçükköse<br>
-    <strong>İletişim:</strong> yahyakucukkose38@hotmail.com
-  </div>
-
-  <h2>1. Özet</h2>
-  <p>3 Mescid, çocukların Mekke, Medine ve Kudüs'ü hikâyeler ve oyunlarla
-  tanıdığı bir eğitim uygulamasıdır. Uygulama <strong>hiçbir kişisel veriyi
-  toplamaz, sunucuya göndermez veya paylaşmaz</strong>. Tüm içerik cihazda
-  çalışır; reklam, analitik ve izleme aracı yoktur.</p>
-
-  <h2>2. Cihazda Saklanan Bilgiler</h2>
-  <p>Uygulamanın çalışması için aşağıdaki bilgiler <strong>yalnızca cihazınızın
-  yerel depolama alanında</strong> tutulur; geliştiriciye veya üçüncü bir tarafa
-  hiçbir zaman iletilmez:</p>
-  <ul>
-    <li>Oyun ilerlemesi: okunan hikâyeler, kazanılan mühür ve rozetler, quiz sonuçları.</li>
-    <li>Ebeveyn ekranında seçilen yaş seviyesi (4-6, 7-9, 10-12, 13+).</li>
-    <li>Ebeveynin <em>isteğe bağlı</em> olarak yazabileceği çocuk adı. Bu alan
-        boş bırakılabilir; yalnızca ekranda kişiselleştirme için kullanılır.</li>
-  </ul>
-  <p>Cihaz kimliği, IP adresi, konum, kişiler, fotoğraf, kamera veya mikrofon
-  verisi <em>istenmez ve toplanmaz</em>.</p>
-
-  <h2>3. İzinler</h2>
-  <p>Uygulama hassas izin istemez. Android sürümü yalnızca sistemin standart
-  <code>INTERNET</code> ve <code>VIBRATE</code> izinlerini taşır; uygulama ağ
-  üzerinden veri göndermez veya almaz. Depolama ve "diğer uygulamaların üzerinde
-  gösterme" izinleri yayın paketinden açıkça kaldırılmıştır.</p>
-
-  <h2>4. Üçüncü Taraf Hizmetleri</h2>
-  <p>Yok. Reklam ağı, analitik, çökme raporlama, uzaktan yapılandırma veya
-  sosyal medya entegrasyonu bulunmaz.</p>
-
-  <h2>5. Çerezler ve İzleme</h2>
-  <p>Uygulama çerez, reklam kimliği (Advertising ID), parmak izi (fingerprinting)
-  veya cihazlar arası izleme kullanmaz.</p>
-
-  <h2>6. Çocukların Gizliliği (COPPA / KVKK / GDPR-K)</h2>
-  <p>3 Mescid çocuklar için tasarlanmıştır ve Google Play Aileler politikasına
-  uygun geliştirilmiştir:</p>
-  <ul>
-    <li>Çocuklardan hiçbir kişisel veri toplanmaz veya iletilmez.</li>
-    <li>Uygulama içi sohbet, çevrimiçi etkileşim veya kullanıcılar arası iletişim yoktur.</li>
-    <li>Reklam yoktur.</li>
-    <li>Uygulama içi satın alma yoktur.</li>
-    <li>Hesap oluşturma veya giriş yapma yoktur.</li>
-  </ul>
-
-  <h2>7. Veri Saklama ve Silme</h2>
-  <p>Yerel veriler siz silene kadar cihazda kalır. Silmek için:</p>
-  <ul>
-    <li>Uygulama içi: <strong>Ebeveyn ve öğretmen → İlerlemeyi sıfırla</strong>.</li>
-    <li>Veya uygulamayı kaldırın; tüm yerel veriler otomatik olarak silinir.</li>
-  </ul>
-
-  <h2>8. Açıklama ve Paylaşım</h2>
-  <p>Hiçbir veri toplanmadığı için hiçbir veri üçüncü taraflarla veya resmî
-  kurumlarla paylaşılamaz.</p>
-
-  <h2>9. Güvenlik</h2>
-  <p>Veriler cihazdan çıkmadığı için iletim yoluyla sızıntı riski yoktur. Yerel
-  veriler işletim sisteminin uygulama korumalı alanı (sandbox) altındadır.</p>
-
-  <h2>10. Değişiklikler</h2>
-  <p>Politika güncellenirse yeni sürüm bu sayfada yayınlanır ve yürürlük tarihi
-  değiştirilir.</p>
-
-  <h2>11. İletişim</h2>
-  <p>Sorularınız için: <strong>yahyakucukkose38@hotmail.com</strong></p>
-
+<article id="aydinlatma">
+  <h2>KVKK Aydınlatma Metni</h2>
+  <p class="meta">Sürüm 2.0.0 · Yürürlük 2026-11-17</p>
+  <p>6698 sayılı Kişisel Verilerin Korunması Kanunu m.10 kapsamında, uygulamayla bağlantılı kişisel veri işlemeleri hakkında bilgilendirme.</p>
+  <h3>1. Veri sorumlusu</h3>
+  <p>3 Mescid uygulamasını yayımlayan Yahya Küçükköse.</p>
+  <ul><li>E-posta: yahyakucukkose38@hotmail.com</li></ul>
+  <h3>2. Uygulamanın içinde: veriler yalnızca cihazınızda</h3>
+  <p>Uygulama hesap açtırmaz, sunucuya bağlanmaz ve geliştiriciye veri göndermez. Aşağıdaki bilgiler yalnızca cihazınızdaki uygulama alanında tutulur; geliştirici bunlara erişemez:</p>
+  <ul><li>Çocuğun adı veya takma adı (isteğe bağlı, en fazla 24 karakter) — Ana ekranda ve pasaportta selamlama</li><li>Yaş seviyesi (4-6, 7-9, 10-12, 13+) — Metinleri ve quiz sorularını yaşa göre seçmek</li><li>Ziyaret edilen mekânlar — İlerleme ve rozetler</li><li>Okunan hikâyeler — İlerleme ve rozetler</li><li>Şehir başına en iyi quiz sonucu — İlerleme ve rozetler</li><li>Tamamlanan eşleştirme oyunları — İlerleme</li><li>Görülen yerleşke bölümleri — İlerleme</li><li>Tamamlanan tanıma oyunları — İlerleme</li><li>Okunan zaman çizgisi olayları — İlerleme</li><li>Okunan kültür kartları — İlerleme</li><li>Kutlaması gösterilmiş rozetler — Aynı kutlamayı tekrar göstermemek</li><li>Son kullanım günü (yalnızca tarih, saat yok) — Günlük seri hesabı</li><li>Günlük seri sayısı — Günlük seri gösterimi</li></ul>
+  <h3>3. Geliştiricinin işlediği veriler, amaçlar ve hukuki sebepler</h3>
+  <p>Ad-soyad (yazdıysanız), e-posta adresi, mesaj içeriği ve ekleri. Ne zaman: Geliştiriciye e-posta veya posta ile soru/başvuru gönderdiğinizde. Amaç: Sorunuzu yanıtlamak; KVKK başvurularını sonuçlandırmak ve kaydını tutmak. Hukuki sebep: KVKK m.5/2-ç (başvurulara cevap verme hukuki yükümlülüğü) ve m.5/2-f (genel sorularda meşru menfaat). Saklama: Başvuru yazışmaları sonuçlandıktan sonra 2 yıl (öneri — işletmeci onaylayacak), genel sorular yanıtlandıktan sonra 1 yıl; süre sonunda silinir.</p>
+  <p>Google Play Console üzerinden geliştiriciye sunulan toplu yükleme istatistikleri ve, cihazında &quot;kullanım ve teşhis&quot; paylaşımı açık kullanıcılar için çökme/ANR raporları (cihaz modeli, Android sürümü, hata kaydı). Ne zaman: Uygulamayı Google Play üzerinden indirdiğinizde ve kullandığınızda. Amaç: Uygulamanın çalışabilirliğini izlemek ve hataları gidermek. Hukuki sebep: KVKK m.5/2-f (meşru menfaat) — Google bu verileri kendi gizlilik politikasıyla toplar. Saklama: Google Play Console saklama süreleri geçerlidir; geliştirici ayrıca kopya tutmaz.</p>
+  
+  <h3>4. Toplama yöntemi</h3>
+  <p>E-posta veya posta yoluyla bize yazdığınızda veriler sizin tarafınızdan, elektronik ortamda ya da yazılı olarak iletilir. Google Play istatistikleri ve çökme raporları, Google tarafından otomatik yollarla toplanıp Play Console aracılığıyla sunulur.</p>
+  
+  <h3>5. Aktarım</h3>
+  <p>E-posta hizmet sağlayıcısı Microsoft (Outlook.com); sunucuları yurt dışında olabilir. Kanunen yetkili kurumlar, talep ederlerse.</p>
+  <p>Google LLC/Google Ireland (veriyi toplayan ve geliştiriciye sunan platform)</p>
+  <ul><li>Uygulama içindeki cihaz verileri geliştiriciye veya üçüncü kişilere aktarılmaz.</li><li>Android “Yedekleme” ayarınız açıksa cihaz verileri işletim sistemi tarafından kendi Google hesabınıza yedeklenebilir. Bu yedekleme sizin hesabınızda ve Google’ın koşullarıyla yapılır; geliştirici yedeklere erişemez.</li></ul>
+  <h3>6. Haklarınız (KVKK m.11)</h3>
+  
+  <ul><li>Kişisel verinizin işlenip işlenmediğini öğrenme ve işlenmişse bilgi talep etme</li><li>İşlenme amacını ve amaca uygun kullanılıp kullanılmadığını öğrenme</li><li>Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme</li><li>Eksik veya yanlış işlenmişse düzeltilmesini isteme</li><li>KVKK m.7’deki şartlar çerçevesinde silinmesini veya yok edilmesini isteme</li><li>Düzeltme/silme işlemlerinin aktarıldığı üçüncü kişilere bildirilmesini isteme</li><li>Otomatik sistemlerle analiz sonucu aleyhinize bir sonuç çıkmasına itiraz etme</li><li>Kanuna aykırı işleme sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme</li></ul>
+  <h3>7. Başvuru</h3>
+  <p>Başvurularınızı Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ m.5’te sayılan yöntemlerle iletebilirsiniz: güvenli elektronik imza, mobil imza veya KEP ile imzalanmış olarak aşağıdaki e-posta adresine; ya da daha önce bize bildirdiğiniz ve yazışma kayıtlarımızda bulunan e-posta adresinizden. Başvuruda Tebliğ gereği ad-soyad (yazılı başvuruda imza), T.C. kimlik numarası (yabancılar için uyruk ve pasaport/kimlik numarası), tebligat adresi, varsa e-posta/telefon ve talep konusu yer alır; bu bilgiler yalnızca başvurunun sonuçlandırılması için kullanılır.</p>
+  <p>Başvurular en kısa sürede ve en geç otuz gün içinde ücretsiz sonuçlandırılır. Yazılı cevap on sayfayı aşarsa her sayfa için 1 TL, cevap CD/flash bellek gibi bir kayıt ortamında verilirse kayıt ortamının maliyeti kadar ücret alınabilir.</p>
+  <p>Uygulamadaki cihaz verileri için başvuruya gerek yoktur: Ebeveyn ve öğretmen ekranından görüntüleyebilir ve silebilirsiniz.</p>
+  <ul><li>E-posta: yahyakucukkose38@hotmail.com</li></ul>
 </article>
 
-<article id="en">
-
-  <div class="meta">
-    <strong>Effective date:</strong> 22 October 2026<br>
-    <strong>App:</strong> 3 Mescid (com.ucmescid.app)<br>
-    <strong>Developer:</strong> Yahya Küçükköse<br>
-    <strong>Contact:</strong> yahyakucukkose38@hotmail.com
-  </div>
-
-  <h2>1. Summary</h2>
-  <p>3 Mescid is an educational app in which children discover Makkah, Madinah
-  and Jerusalem through stories and games. The app <strong>does not collect,
-  transmit or share any personal data</strong>. All content runs on the device;
-  there are no ads, analytics or trackers.</p>
-
-  <h2>2. Information Stored on the Device</h2>
-  <p>The following information is kept <strong>only in your device's local
-  storage</strong> so the app can work; it is never sent to the developer or any
-  third party:</p>
-  <ul>
-    <li>Game progress: stories read, stamps and badges earned, quiz results.</li>
-    <li>The age level chosen on the parent screen (4-6, 7-9, 10-12, 13+).</li>
-    <li>A child's name that a parent may <em>optionally</em> enter. It can be left
-        empty and is used only to personalise on-screen text.</li>
-  </ul>
-  <p>Device ID, IP address, location, contacts, photos, camera or microphone
-  data are <em>never requested or collected</em>.</p>
-
-  <h2>3. Permissions</h2>
-  <p>The app requests no sensitive permissions. The Android build only carries
-  the standard <code>INTERNET</code> and <code>VIBRATE</code> permissions; the app
-  does not send or receive data over the network. Storage and "display over
-  other apps" permissions are explicitly removed from the release package.</p>
-
-  <h2>4. Third-Party Services</h2>
-  <p>None. No ad networks, analytics, crash reporting, remote config or social
-  media integrations.</p>
-
-  <h2>5. Cookies and Tracking</h2>
-  <p>The app uses no cookies, advertising ID, fingerprinting or cross-device
-  tracking.</p>
-
-  <h2>6. Children's Privacy (COPPA / GDPR-K / KVKK)</h2>
-  <p>3 Mescid is designed for children and built to comply with the Google Play
-  Families policy:</p>
-  <ul>
-    <li>No personal data is collected from or transmitted about children.</li>
-    <li>No in-app chat, online interaction or user-to-user communication.</li>
-    <li>No ads.</li>
-    <li>No in-app purchases.</li>
-    <li>No account creation or sign-in.</li>
-  </ul>
-
-  <h2>7. Data Retention and Deletion</h2>
-  <p>Local data stays on the device until you delete it. To delete it:</p>
-  <ul>
-    <li>In-app: <strong>Parent and teacher → Reset progress</strong>.</li>
-    <li>Or uninstall the app; all local data is removed automatically.</li>
-  </ul>
-
-  <h2>8. Disclosure and Sharing</h2>
-  <p>Since no data is collected, no data can be shared with third parties or
-  authorities.</p>
-
-  <h2>9. Security</h2>
-  <p>Data never leaves the device, so there is no transmission risk. Local data
-  is protected by the operating system's app sandbox.</p>
-
-  <h2>10. Changes</h2>
-  <p>Updates to this policy will be published on this page with a new effective
-  date.</p>
-
-  <h2>11. Contact</h2>
-  <p>For questions: <strong>yahyakucukkose38@hotmail.com</strong></p>
-
+<article id="gizlilik">
+  <h2>Gizlilik Politikası</h2>
+  <p class="meta">Sürüm 2.0.0 · Yürürlük 2026-11-17</p>
+  <p>Uygulamanın hangi bilgileri nerede tuttuğu, hangi hizmetleri kullanıp kullanmadığı ve verilerinizi nasıl silebileceğiniz.</p>
+  <h3>Özet</h3>
+  <p>3 Mescid, çocukların Mekke, Medine ve Kudüs’ü hikâyeler ve oyunlarla tanıdığı ücretsiz bir eğitim uygulamasıdır. Uygulama internet bağlantısı olmadan çalışır; hesap, reklam, analitik veya sunucu kullanmaz. İlerleme yalnızca cihazınızda tutulur.</p>
+  <p>Bu politika KVKK Aydınlatma Metni ile birlikte okunmalıdır.</p>
+  
+  <h3>Cihazda saklanan bilgiler</h3>
+  
+  <ul><li>Çocuğun adı veya takma adı (isteğe bağlı, en fazla 24 karakter) — Ana ekranda ve pasaportta selamlama</li><li>Yaş seviyesi (4-6, 7-9, 10-12, 13+) — Metinleri ve quiz sorularını yaşa göre seçmek</li><li>Ziyaret edilen mekânlar — İlerleme ve rozetler</li><li>Okunan hikâyeler — İlerleme ve rozetler</li><li>Şehir başına en iyi quiz sonucu — İlerleme ve rozetler</li><li>Tamamlanan eşleştirme oyunları — İlerleme</li><li>Görülen yerleşke bölümleri — İlerleme</li><li>Tamamlanan tanıma oyunları — İlerleme</li><li>Okunan zaman çizgisi olayları — İlerleme</li><li>Okunan kültür kartları — İlerleme</li><li>Kutlaması gösterilmiş rozetler — Aynı kutlamayı tekrar göstermemek</li><li>Son kullanım günü (yalnızca tarih, saat yok) — Günlük seri hesabı</li><li>Günlük seri sayısı — Günlük seri gösterimi</li></ul>
+  <h3>Ad alanı hakkında</h3>
+  <p>Ad alanı isteğe bağlıdır; boş bırakılabilir veya takma ad yazılabilir. Uygulamanın bütün işlevleri ad girilmeden çalışır. Alan en fazla 24 karakter kabul eder ve yalnızca ekrandaki selamlamada kullanılır.</p>
+  
+  <h3>Kullanılmayan araçlar</h3>
+  
+  <ul><li>Reklam ağı veya reklam kimliği (Advertising ID)</li><li>Analitik, çökme raporlama SDK’sı (Firebase, Sentry vb.)</li><li>Bildirim (push) servisi</li><li>Hesap, giriş, sunucu veya bulut veritabanı</li><li>Konum, kamera, mikrofon, rehber, fotoğraf erişimi</li><li>Uygulama içi satın alma, ödeme veya abonelik</li><li>Harici web sayfası açan bağlantı, WebView veya sosyal medya eklentisi</li><li>Yapay zekâ servisi</li></ul>
+  <h3>Kullanılan yazılım bileşenleri</h3>
+  <p>Uygulama Expo ve React Native açık kaynak kütüphaneleriyle geliştirilmiştir. Bu kütüphaneler cihaz üzerinde çalışır; uygulamanın yayın sürümünde uzaktan güncelleme (expo-updates) kapalıdır ve kütüphaneler bir sunucuya veri göndermez. Lisans listesi uygulama içinde “Açık kaynak lisansları” bölümündedir.</p>
+  
+  <h3>İzinler (Android)</h3>
+  
+  <ul><li>INTERNET: Kullandığımız çatının (React Native) varsayılan izinidir; uygulama ağ üzerinden veri göndermez veya almaz.</li><li>VIBRATE: Dokunma geri bildirimi için.</li><li>Depolama ve “diğer uygulamaların üzerinde gösterme” izinleri yayın paketinden kaldırılmıştır.</li></ul>
+  <h3>Yedekleme</h3>
+  <p>Android’in otomatik yedekleme özelliği açıktır. Cihazınızda yedekleme etkinse, uygulama verileri (ad alanı dâhil) işletim sistemi tarafından kendi Google hesabınıza yedeklenebilir ve yeni cihazda geri yüklenebilir. Android 9 ve üzerinde, ekran kilidi ayarlıysa bu yedek cihazın PIN/desen/şifresiyle uçtan uca şifrelenir. Geliştirici bu yedeklere erişemez. Yedeklemeyi cihazın Ayarlar → Google → Yedekleme bölümünden kapatabilir veya yedeği Google hesabınızdan silebilirsiniz.</p>
+  
+  <h3>Google Play</h3>
+  <p>Uygulamayı Google Play’den indirdiğinizde Google, kendi gizlilik politikası kapsamında veri işler. Geliştirici Play Console’da yalnızca toplu yükleme istatistiklerini ve, cihazında teşhis verisi paylaşımı açık olan kullanıcılar için çökme raporlarını görür.</p>
+  
+  <h3>Çocukların gizliliği</h3>
+  
+  <ul><li>Uygulama çocuklara yöneliktir; çocuktan geliştiriciye hiçbir veri iletilmez.</li><li>Sohbet, kullanıcılar arası iletişim, paylaşım, reklam ve satın alma yoktur.</li><li>Ebeveyn ekranındaki ayarların ebeveyn veya öğretmen tarafından yapılması önerilir.</li></ul>
+  <h3>Saklama ve silme</h3>
+  
+  <ul><li>Cihazdaki veriler siz silene kadar cihazda kalır.</li><li>Ebeveyn ve öğretmen → “İlerlemeyi sıfırla”: ad, yaş seviyesi ve bütün ilerleme silinir.</li><li>Uygulamayı kaldırdığınızda cihazdaki veriler Android tarafından silinir; Google hesabınızdaki yedek ayrıca silinmelidir.</li></ul>
+  <h3>Güvenlik</h3>
+  <p>Veriler Android’in uygulamaya özel korumalı alanında tutulur; diğer uygulamalar erişemez. Uygulama ayrıca ek bir şifreleme yapmaz. Ağ iletimi olmadığından iletim sırasında ele geçirilme riski oluşmaz. Cihazınızı ekran kilidiyle korumanızı öneririz.</p>
+  
+  <h3>Değişiklikler</h3>
+  <p>Politika değişirse sürüm numarası ve yürürlük tarihi güncellenir; güncel metin uygulama içinde ve web sayfasında yayımlanır.</p>
+  
+  <h3>İletişim</h3>
+  
+  <ul><li>E-posta: yahyakucukkose38@hotmail.com</li></ul>
 </article>
 
-</main>
+<article id="kosullar">
+  <h2>Kullanım Koşulları</h2>
+  <p class="meta">Sürüm 2.0.0 · Yürürlük 2026-11-17</p>
+  <p>Uygulamanın kapsamı, kullanım şartları ve sorumluluklar.</p>
+  <h3>1. Hizmet</h3>
+  <p>3 Mescid, Mekke, Medine ve Kudüs hakkında hikâye, bilgi kartı ve oyunlar sunan ücretsiz bir eğitim uygulamasıdır. Hesap açma, ödeme, abonelik veya uygulama içi satın alma yoktur. Uygulama internet bağlantısı olmadan çalışır.</p>
+  
+  <h3>2. İçerik</h3>
+  <p>Dinî ve tarihî içerik kaynak gösterilerek hazırlanmıştır; her bilgi kartında “Kaynak” bölümü bulunur. Proje kayıtlarına göre içerik yayın öncesinde dinî ve pedagojik incelemeden geçirilmiştir. İçerik genel eğitim amaçlıdır; fetva veya resmî dinî görüş yerine geçmez.</p>
+  <p>Hata bildirimlerinizi aşağıdaki iletişim adresine iletebilirsiniz.</p>
+  
+  <h3>3. Kullanım</h3>
+  
+  <ul><li>Uygulama kişisel ve eğitim amaçlı kullanım içindir; okulda ve evde serbestçe kullanılabilir.</li><li>Uygulamanın kaynak kodunu, içeriğini veya görsellerini izinsiz çoğaltıp ticari amaçla dağıtmak yasaktır; kanunun izin verdiği kullanımlar saklıdır.</li><li>Küçük çocukların uygulamayı ebeveyn veya öğretmen gözetiminde kullanması önerilir.</li></ul>
+  <h3>4. Fikrî haklar ve lisanslar</h3>
+  <p>Uygulamanın metin, tasarım ve kodu üzerindeki haklar geliştiriciye veya ilgili hak sahiplerine aittir. Kullanılan açık kaynak yazılımlar kendi lisanslarına tabidir; liste uygulama içindeki “Açık kaynak lisansları” bölümündedir.</p>
+  
+  <h3>5. Sorumluluk</h3>
+  <p>Uygulama özenle hazırlanmıştır; hata fark ettiğinizde bize bildirmeniz düzeltmemize yardımcı olur. Bu koşullar, tüketici mevzuatı dâhil kanundan doğan haklarınızı kaldırmaz veya sınırlamaz.</p>
+  
+  <h3>6. Kişisel veriler</h3>
+  <p>Kişisel verilere ilişkin bilgiler Gizlilik Politikası ve KVKK Aydınlatma Metni’ndedir. Bu koşulları kullanmanız, herhangi bir pazarlama iletisine onay verdiğiniz anlamına gelmez; uygulama pazarlama iletisi göndermez.</p>
+  
+  <h3>7. Değişiklik ve uygulanacak hukuk</h3>
+  <p>Koşullar güncellenirse sürüm ve tarih değiştirilir. Bu koşullara Türkiye Cumhuriyeti hukuku uygulanır; tüketicilerin kanundan doğan başvuru yolları saklıdır.</p>
+  
+  <h3>İletişim</h3>
+  
+  <ul><li>E-posta: yahyakucukkose38@hotmail.com</li></ul>
+</article>
 
-<footer>
-  © 2026 3 Mescid · Yahya Küçükköse
-</footer>
+<article id="cerezler">
+  <h2>Çerez ve Yerel Depolama Bilgisi</h2>
+  <p class="meta">Sürüm 2.0.0 · Yürürlük 2026-11-17</p>
+  <p>Uygulama çerez veya takip teknolojisi kullanmaz. Yalnızca hizmetin çalışması için zorunlu bir yerel kayıt tutar; bu nedenle onay bandı gösterilmez.</p>
+  <h3>Kullanılan yerel depolama</h3>
+  
+  <ul><li>uc-mescid/progress/v1 — Teknoloji: AsyncStorage (Android: uygulamaya özel SQLite veritabanı; web derlemesinde localStorage). Sağlayıcı: Uygulamanın kendisi (birinci taraf). Amaç: İlerleme, yaş seviyesi ve isteğe bağlı adın cihazda hatırlanması. Süre: Kullanıcı &quot;İlerlemeyi sıfırla&quot; diyene veya uygulamayı kaldırana kadar. Kategori: Zorunlu / işlevsel — hizmetin kendisi için gerekli, takip amacı yok.</li></ul>
+  <h3>Kullanılmayanlar</h3>
+  
+  <ul><li>Çerez (HTTP cookie)</li><li>Reklam kimliği, cihaz parmak izi, cihazlar arası izleme</li><li>Analitik veya pazarlama amaçlı depolama</li><li>Üçüncü taraf betik, yazı tipi veya gömülü içerik</li></ul>
+  <h3>Neden onay bandı yok?</h3>
+  <p>Rızaya tabi (analitik, reklam, kişiselleştirilmiş pazarlama) bir teknoloji kullanılmamaktadır. Kullanılan tek kayıt, kullanıcının istediği hizmetin (ilerlemenin hatırlanması) sunulması için zorunludur. Böyle bir teknoloji eklenirse, onay alınmadan çalıştırılmayacak ve bu metin güncellenecektir.</p>
+  
+  <h3>Dayanak</h3>
+  <p>KVKK Çerez Uygulamaları Hakkında Rehber (Temmuz 2025 baskısı) yalnızca kullanıcının açıkça talep ettiği hizmet için kesinlikle gerekli çerezleri açık rızadan muaf tutar; Rehber, local storage gibi benzer teknolojiler için ayrıca yönlendirme yapmadığını belirtir. Bu uygulamadaki tek kayıt, kullanıcının istediği hizmet için gereklidir ve takip amacı taşımaz.</p>
+  
+  <h3>Gizlilik web sayfası</h3>
+  <p>Gizlilik politikasının yayımlandığı web sayfası GitHub Pages üzerinde barındırılır ve çerez kullanmaz. Barındırma hizmeti olarak GitHub, sayfayı ziyaret edenlerin IP adresini güvenlik ve hizmet amacıyla kendi politikası kapsamında kaydedebilir.</p>
+  
+</article>
 
-<script>
-  function show(lang) {
-    document.querySelectorAll('article').forEach(a => a.classList.remove('active'));
-    document.querySelectorAll('.switch button').forEach(b => b.classList.remove('active'));
-    document.getElementById(lang).classList.add('active');
-    document.getElementById('btn-' + lang).classList.add('active');
-    document.documentElement.lang = lang;
-  }
-</script>
-
-</body>
-</html>
+<article id="veri-talepleri">
+  <h2>Veri Görüntüleme, Düzeltme ve Silme</h2>
+  <p class="meta">Sürüm 2.0.0 · Yürürlük 2026-11-17</p>
+  <p>Cihazdaki verilerinizi nasıl göreceğiniz, düzelteceğiniz, sileceğiniz ve bize nasıl başvuracağınız.</p>
+  <h3>Cihazdaki veriler (başvuru gerekmez)</h3>
+  
+  <ul><li>Görüntüleme: Ebeveyn ve öğretmen → “Bu cihazda saklanan veriler”.</li><li>Düzeltme: Ad ve yaş seviyesi aynı ekrandan değiştirilebilir.</li><li>Silme: “İlerlemeyi sıfırla” ad, yaş seviyesi ve bütün ilerlemeyi siler. Uygulamayı kaldırmak da cihazdaki verileri siler.</li><li>Yedek: Android yedeklemesi açıksa, kopya Google hesabınızda kalabilir; Google hesabı ayarlarından silinmelidir. Geliştirici bu yedeğe erişemediği için silemez.</li></ul>
+  <h3>Geliştiriciye başvuru</h3>
+  <p>Bize gönderdiğiniz e-postalar veya diğer konular için KVKK m.11 kapsamındaki taleplerinizi aşağıdaki kanallardan iletebilirsiniz. Başvuru yolları ve başvuruda bulunması gereken bilgiler KVKK Aydınlatma Metni’nin “Başvuru” bölümündedir. Kimlik doğrulama için bunların dışında belge (ör. kimlik fotokopisi) istenmez; yalnızca başvuru sahibinin ilgili yazışmanın tarafı olduğu anlaşılamazsa ek açıklama istenebilir.</p>
+  <p>Çocuk adına başvuruyu velisi veya vasisi yapar.</p>
+  <p>Başvurular en kısa sürede ve en geç 30 gün içinde yanıtlanır. Başvuru tarihi, konusu, sonucu ve yanıt tarihi kayıt altında tutulur.</p>
+  <ul><li>E-posta: yahyakucukkose38@hotmail.com</li></ul>
+  <h3>Neleri silemeyiz?</h3>
+  <p>Kanunen saklanması gereken başvuru kayıtları, saklama süresi bitene kadar tutulur. Google Play’in kendi topladığı veriler için Google’a başvurmanız gerekir.</p>
+  
+</article>
+</main></body></html>
